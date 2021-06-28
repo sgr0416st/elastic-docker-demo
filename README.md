@@ -27,6 +27,7 @@ docker-compose up
 2. open logging-demo (which is the sub project of this repository) on your IDE and run the application.
 
 3. set up kibana
+    
     a. access to the Kibana [(http://localhost:5601)](http://localhost:5601) and go to menu > Stack Management > Index Patterns
 
     b. click Create Index Pattern
