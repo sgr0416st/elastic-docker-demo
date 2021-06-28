@@ -15,13 +15,13 @@ git clone https://github.com/sgr0416st/elastic-docker-demo.git
 ```
 
 ## Usage
-please refer [] for more details (Japanese)
+please refer [this document](https://qiita.com/sgr0416st/items/6409fb84f5463cd2112a) for more details (Japanese)
 
 1. open terminal, go to this root project and run docker compose
 
 ```bash
 cd {your project folder}
-docker-compose up
+docker-compose up --build
 ```
 
 2. open logging-demo (which is the sub project of this repository) on your IDE and run the application.
