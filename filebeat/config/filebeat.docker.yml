@@ -1,0 +1,12 @@
+filebeat.inputs:
+  - type: log
+    paths:
+      - /usr/share/filebeat/logs/logging-demo.log
+
+setup.template.name: "filebeat"
+setup.template.pattern: "filebeat-*"
+
+output.elasticsearch:
+  hosts: 
+    - "elasticsearch:9200"
+  index: "filebeat-%{[agent.version]}-%{+yyyy.MM.dd}"

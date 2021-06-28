@@ -1,0 +1,7 @@
+cluster.name: logging-cluster # default value: elasticsearch
+node.name: logging-node # default: the hostname of the machine
+network.host: elastic101
+discovery.seed_hosts: 
+  - elastic101
+cluster.initial_master_nodes: 
+  - logging-node
